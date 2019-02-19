@@ -43,7 +43,7 @@ class Owner
   
   def sell_pets 
     @pets.each do |type, name_of_animal|
-      
+      name_of_animal.each do 
   end 
   
   def list_pets 
