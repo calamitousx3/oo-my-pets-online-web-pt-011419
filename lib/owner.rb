@@ -24,7 +24,7 @@ class Owner
   end 
   
   def walk_dogs
-    
+    @pets[:dogs].ech do {|dogs| 
   end 
   
 end
