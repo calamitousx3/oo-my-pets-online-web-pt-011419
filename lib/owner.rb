@@ -5,8 +5,10 @@ class Owner
   def initialize(species, pets = {:fishes => [], :cats => [], :dogs => []})
     @species = species
     @pets = pets
-    
   end 
+  
+  def say_species
+    "I am a #{@species}"
   
   
 end
