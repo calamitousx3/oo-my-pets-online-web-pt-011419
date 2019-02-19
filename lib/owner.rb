@@ -51,6 +51,7 @@ class Owner
   end 
   
   def list_pets 
+    "I have #{@pets"
   end 
   
 end
