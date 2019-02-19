@@ -42,7 +42,7 @@ class Owner
   end 
   
   def sell_pets 
-    
+    @pets.each do 
   end 
   
   def list_pets 
