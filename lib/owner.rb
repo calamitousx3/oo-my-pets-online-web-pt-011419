@@ -12,6 +12,6 @@ class Owner
   end 
   
   def buy_fish(fish_name)
-    
+    @pets:fishes 
   
 end
